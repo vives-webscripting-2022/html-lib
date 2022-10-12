@@ -1,0 +1,30 @@
+{
+  "name": "html-library",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vives-webscripting-2022/html-lib.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vives-webscripting-2022/html-lib/issues"
+  },
+  "homepage": "https://github.com/vives-webscripting-2022/html-lib#readme",
+  "dependencies": {
+    "chalk": "^5.1.0",
+    "nodemon": "^2.0.20"
+  }
+}
